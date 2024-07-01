@@ -2,12 +2,11 @@ class Clazy < Formula
   desc "Qt oriented static code analyzer"
   homepage "https://www.kdab.com/"
   license "LGPL-2.0-or-later"
-  revision 3
   head "https://invent.kde.org/sdk/clazy.git", branch: "master"
 
   stable do
-    url "https://download.kde.org/stable/clazy/1.11/src/clazy-1.11.tar.xz"
-    sha256 "66165df33be8785218720c8947aa9099bae6d06c90b1501953d9f95fdfa0120a"
+    url "https://download.kde.org/stable/clazy/1.12/src/clazy-1.12.tar.xz"
+    sha256 "611749141d07ce1e006f8a1253f9b2dbd5b7b44d2d5322d471d62430ec2849ac"
 
     # Backport support for LLVM 15
     patch do
